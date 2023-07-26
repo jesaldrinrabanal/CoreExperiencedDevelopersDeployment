@@ -19,7 +19,7 @@ namespace ProductMicroservicesProject.Controllers
 
         // GET:api/Product
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Get()
         {
             var products = _productRepository.GetProducts();
             return new OkObjectResult(products);
