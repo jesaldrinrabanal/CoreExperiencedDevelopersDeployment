@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservicesProject
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "productdb", "productdb\productdb.sqlproj", "{6659B932-B111-41FD-885B-B6DE2C605654}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{93D037FD-8E52-4F46-B45A-C51EAC9BD559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{6659B932-B111-41FD-885B-B6DE2C605654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6659B932-B111-41FD-885B-B6DE2C605654}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6659B932-B111-41FD-885B-B6DE2C605654}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{93D037FD-8E52-4F46-B45A-C51EAC9BD559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D037FD-8E52-4F46-B45A-C51EAC9BD559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D037FD-8E52-4F46-B45A-C51EAC9BD559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D037FD-8E52-4F46-B45A-C51EAC9BD559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

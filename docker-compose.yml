@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  productmicroservicesproject:
+    image: ${DOCKER_REGISTRY-}productmicroservicesproject
+    build:
+      context: .
+      dockerfile: ProductMicroservicesProject/Dockerfile
